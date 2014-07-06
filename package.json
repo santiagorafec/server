@@ -5,12 +5,9 @@
 	"author": {
 		"name": "Santiago Ramirez",
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/santiagorafec/server.git"
+	"scripts": {
+ 	 "start": "node server.js"
 	},
 
-	"devDependencies": {},
-	"bundleDependencies": [],
 	"main": "server.js"
 }
