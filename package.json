@@ -9,10 +9,7 @@
 		"type": "git",
 		"url": "https://github.com/santiagorafec/server.git"
 	},
-	"engines": {
-		"node": ">= 0.6.0",
-		"npm": ">= 1.0.0"
-	},
+
 	"devDependencies": {},
 	"bundleDependencies": [],
 	"main": "server.js"
