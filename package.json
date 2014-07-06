@@ -1,4 +1,20 @@
-"scripts": {
-  "start": "node server.js"
-},
-"main": "server.js"
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santiagorafec/server.git"
+  },
+  "author": "Santiago Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiagorafec/server/issues"
+  },
+  "homepage": "https://github.com/santiagorafec/server"
+}
