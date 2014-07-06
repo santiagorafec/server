@@ -1,13 +1,4 @@
-{
-	"name": "Simple Server",
-	"version": "1.0.0",
-	"description": "so...",
-	"author": {
-		"name": "Santiago Ramirez",
-	},
-	"scripts": {
- 	 "start": "node server.js"
-	},
-
-	"main": "server.js"
-}
+"scripts": {
+  "start": "node server.js"
+},
+"main": "server.js"
