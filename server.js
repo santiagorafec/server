@@ -1,8 +1,6 @@
-var http = require('http');
-var myServer = http.createServer(function(request, response){
-    response.writeHead(200, {"Content-Type" : "text/html"});
-    response.write("<b>Hello</b> World<br/> <i>How have you been?</i>");
-    response.end();
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+ 
+server.listen(server_port, server_ip_address, function () {
+  console.log( "Listening on " + server_ip_address + ", server_port " + port )
 });
-
-myServer.listen(80);
